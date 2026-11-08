@@ -1,0 +1,39 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+appsettings*.json
+!appsettings.example.json
+launchSettings.json
+*.pfx
+*.p12
+*.pem
+*.key
+secrets.json
+
+# Build output and dependencies
+node_modules/
+dist/
+dist-ssr/
+bin/
+obj/
+_build*/
+coverage/
+
+# IDE and operating system files
+.vs/
+.idea/
+.vscode/
+*.user
+*.suo
+*.log
+.DS_Store
+Thumbs.db
+
+# Local backups / data exports
+*.zip
+*.7z
+*.rar
+*.bak
+*.dump
+*_backup.sql
