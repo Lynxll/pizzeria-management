@@ -36,4 +36,6 @@ Thumbs.db
 *.rar
 *.bak
 *.dump
+*.backup
+*.partial
 *_backup.sql
